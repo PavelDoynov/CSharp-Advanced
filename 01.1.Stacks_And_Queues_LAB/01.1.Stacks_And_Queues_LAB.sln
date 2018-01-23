@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Reverse_Strings", "01.Reverse_Strings\01.Reverse_Strings.csproj", "{4A3C6F30-955E-4C51-8640-B3AE42F15FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Simple_Calculator", "02.Simple_Calculator\02.Simple_Calculator.csproj", "{2F7E830E-D8D2-4F8A-9C2B-429043232B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Decimal_to_Binary_Converter", "03.Decimal_to_Binary_Converter\03.Decimal_to_Binary_Converter.csproj", "{85F3FAC0-626B-4C46-9618-36FE70E88FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Matching_Brackets", "04.Matching_Brackets\04.Matching_Brackets.csproj", "{DA0DA9D5-3F9E-4D4E-983E-E5580387F409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Hot_Potato", "05.Hot_Potato\05.Hot_Potato.csproj", "{B539724D-37EA-47DB-B29C-643E5964ABB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Traffic_Light", "06.Traffic_Light\06.Traffic_Light.csproj", "{A62530B5-6BC6-448A-B145-1420ABBFC1A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A3C6F30-955E-4C51-8640-B3AE42F15FD3}.Debug|x86.ActiveCfg = Debug|x86
+		{4A3C6F30-955E-4C51-8640-B3AE42F15FD3}.Debug|x86.Build.0 = Debug|x86
+		{4A3C6F30-955E-4C51-8640-B3AE42F15FD3}.Release|x86.ActiveCfg = Release|x86
+		{4A3C6F30-955E-4C51-8640-B3AE42F15FD3}.Release|x86.Build.0 = Release|x86
+		{2F7E830E-D8D2-4F8A-9C2B-429043232B26}.Debug|x86.ActiveCfg = Debug|x86
+		{2F7E830E-D8D2-4F8A-9C2B-429043232B26}.Debug|x86.Build.0 = Debug|x86
+		{2F7E830E-D8D2-4F8A-9C2B-429043232B26}.Release|x86.ActiveCfg = Release|x86
+		{2F7E830E-D8D2-4F8A-9C2B-429043232B26}.Release|x86.Build.0 = Release|x86
+		{85F3FAC0-626B-4C46-9618-36FE70E88FFB}.Debug|x86.ActiveCfg = Debug|x86
+		{85F3FAC0-626B-4C46-9618-36FE70E88FFB}.Debug|x86.Build.0 = Debug|x86
+		{85F3FAC0-626B-4C46-9618-36FE70E88FFB}.Release|x86.ActiveCfg = Release|x86
+		{85F3FAC0-626B-4C46-9618-36FE70E88FFB}.Release|x86.Build.0 = Release|x86
+		{DA0DA9D5-3F9E-4D4E-983E-E5580387F409}.Debug|x86.ActiveCfg = Debug|x86
+		{DA0DA9D5-3F9E-4D4E-983E-E5580387F409}.Debug|x86.Build.0 = Debug|x86
+		{DA0DA9D5-3F9E-4D4E-983E-E5580387F409}.Release|x86.ActiveCfg = Release|x86
+		{DA0DA9D5-3F9E-4D4E-983E-E5580387F409}.Release|x86.Build.0 = Release|x86
+		{B539724D-37EA-47DB-B29C-643E5964ABB7}.Debug|x86.ActiveCfg = Debug|x86
+		{B539724D-37EA-47DB-B29C-643E5964ABB7}.Debug|x86.Build.0 = Debug|x86
+		{B539724D-37EA-47DB-B29C-643E5964ABB7}.Release|x86.ActiveCfg = Release|x86
+		{B539724D-37EA-47DB-B29C-643E5964ABB7}.Release|x86.Build.0 = Release|x86
+		{A62530B5-6BC6-448A-B145-1420ABBFC1A9}.Debug|x86.ActiveCfg = Debug|x86
+		{A62530B5-6BC6-448A-B145-1420ABBFC1A9}.Debug|x86.Build.0 = Debug|x86
+		{A62530B5-6BC6-448A-B145-1420ABBFC1A9}.Release|x86.ActiveCfg = Release|x86
+		{A62530B5-6BC6-448A-B145-1420ABBFC1A9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
