@@ -15,6 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Truck_Tour", "06.Truck_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Balanced_Parentheses", "07.Balanced_Parentheses\07.Balanced_Parentheses.csproj", "{A97D3333-D7D9-47E5-BAD4-E5696BD1CE45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Stack_Fibonacci", "09.Stack_Fibonacci\09.Stack_Fibonacci.csproj", "{1426D11D-85B5-401F-97ED-FA552E9F38FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Simple_Text_Editor", "10.Simple_Text_Editor\10.Simple_Text_Editor.csproj", "{F4B512C4-71CF-4A66-86D2-6324CEA777F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Poisonous_Plants", "11.Poisonous_Plants\11.Poisonous_Plants.csproj", "{A3115F6A-2725-48A8-A2C2-657D8F143685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Recursive_Fibonacci", "08.Recursive_Fibonacci\08.Recursive_Fibonacci.csproj", "{295CCA6A-7934-43AA-8BD9-79ABF8229301}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -49,5 +57,21 @@ Global
 		{A97D3333-D7D9-47E5-BAD4-E5696BD1CE45}.Debug|x86.Build.0 = Debug|x86
 		{A97D3333-D7D9-47E5-BAD4-E5696BD1CE45}.Release|x86.ActiveCfg = Release|x86
 		{A97D3333-D7D9-47E5-BAD4-E5696BD1CE45}.Release|x86.Build.0 = Release|x86
+		{1426D11D-85B5-401F-97ED-FA552E9F38FE}.Debug|x86.ActiveCfg = Debug|x86
+		{1426D11D-85B5-401F-97ED-FA552E9F38FE}.Debug|x86.Build.0 = Debug|x86
+		{1426D11D-85B5-401F-97ED-FA552E9F38FE}.Release|x86.ActiveCfg = Release|x86
+		{1426D11D-85B5-401F-97ED-FA552E9F38FE}.Release|x86.Build.0 = Release|x86
+		{F4B512C4-71CF-4A66-86D2-6324CEA777F6}.Debug|x86.ActiveCfg = Debug|x86
+		{F4B512C4-71CF-4A66-86D2-6324CEA777F6}.Debug|x86.Build.0 = Debug|x86
+		{F4B512C4-71CF-4A66-86D2-6324CEA777F6}.Release|x86.ActiveCfg = Release|x86
+		{F4B512C4-71CF-4A66-86D2-6324CEA777F6}.Release|x86.Build.0 = Release|x86
+		{A3115F6A-2725-48A8-A2C2-657D8F143685}.Debug|x86.ActiveCfg = Debug|x86
+		{A3115F6A-2725-48A8-A2C2-657D8F143685}.Debug|x86.Build.0 = Debug|x86
+		{A3115F6A-2725-48A8-A2C2-657D8F143685}.Release|x86.ActiveCfg = Release|x86
+		{A3115F6A-2725-48A8-A2C2-657D8F143685}.Release|x86.Build.0 = Release|x86
+		{295CCA6A-7934-43AA-8BD9-79ABF8229301}.Debug|x86.ActiveCfg = Debug|x86
+		{295CCA6A-7934-43AA-8BD9-79ABF8229301}.Debug|x86.Build.0 = Debug|x86
+		{295CCA6A-7934-43AA-8BD9-79ABF8229301}.Release|x86.ActiveCfg = Release|x86
+		{295CCA6A-7934-43AA-8BD9-79ABF8229301}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
