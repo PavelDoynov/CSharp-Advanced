@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Sum_Matrix_Elements", "01.Sum_Matrix_Elements\01.Sum_Matrix_Elements.csproj", "{A3E24C51-A98B-4A6D-8F02-6AE5593532CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Square_With_Maximum_Sum", "02.Square_With_Maximum_Sum\02.Square_With_Maximum_Sum.csproj", "{3B5F7525-20AD-46C8-93AB-059D3D4C6F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Group_Numbers", "03.Group_Numbers\03.Group_Numbers.csproj", "{F5D10562-D07B-4FAA-8D23-1AAF0F58907B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Pascal_Triangle", "04.Pascal_Triangle\04.Pascal_Triangle.csproj", "{CC4D9EED-9AF9-4C92-B643-9835B860FBD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3E24C51-A98B-4A6D-8F02-6AE5593532CD}.Debug|x86.ActiveCfg = Debug|x86
+		{A3E24C51-A98B-4A6D-8F02-6AE5593532CD}.Debug|x86.Build.0 = Debug|x86
+		{A3E24C51-A98B-4A6D-8F02-6AE5593532CD}.Release|x86.ActiveCfg = Release|x86
+		{A3E24C51-A98B-4A6D-8F02-6AE5593532CD}.Release|x86.Build.0 = Release|x86
+		{3B5F7525-20AD-46C8-93AB-059D3D4C6F48}.Debug|x86.ActiveCfg = Debug|x86
+		{3B5F7525-20AD-46C8-93AB-059D3D4C6F48}.Debug|x86.Build.0 = Debug|x86
+		{3B5F7525-20AD-46C8-93AB-059D3D4C6F48}.Release|x86.ActiveCfg = Release|x86
+		{3B5F7525-20AD-46C8-93AB-059D3D4C6F48}.Release|x86.Build.0 = Release|x86
+		{F5D10562-D07B-4FAA-8D23-1AAF0F58907B}.Debug|x86.ActiveCfg = Debug|x86
+		{F5D10562-D07B-4FAA-8D23-1AAF0F58907B}.Debug|x86.Build.0 = Debug|x86
+		{F5D10562-D07B-4FAA-8D23-1AAF0F58907B}.Release|x86.ActiveCfg = Release|x86
+		{F5D10562-D07B-4FAA-8D23-1AAF0F58907B}.Release|x86.Build.0 = Release|x86
+		{CC4D9EED-9AF9-4C92-B643-9835B860FBD3}.Debug|x86.ActiveCfg = Debug|x86
+		{CC4D9EED-9AF9-4C92-B643-9835B860FBD3}.Debug|x86.Build.0 = Debug|x86
+		{CC4D9EED-9AF9-4C92-B643-9835B860FBD3}.Release|x86.ActiveCfg = Release|x86
+		{CC4D9EED-9AF9-4C92-B643-9835B860FBD3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
