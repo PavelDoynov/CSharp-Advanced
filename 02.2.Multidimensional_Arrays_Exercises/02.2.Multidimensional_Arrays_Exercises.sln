@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Matrix_of_Palindromes", "01.Matrix_of_Palindromes\01.Matrix_of_Palindromes.csproj", "{39BBA4D2-4DCD-48E8-AC01-75BF60D7E07F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Diagonal_Difference", "02.Diagonal_Difference\02.Diagonal_Difference.csproj", "{BACD12CA-C093-440C-8D1F-6BA7592F8130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.2x2_Squares_in_Matrix", "03.2x2_Squares_in_Matrix\03.2x2_Squares_in_Matrix.csproj", "{DF94E838-A853-448F-AC2E-2A842732C5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Maximal_Sum", "04.Maximal_Sum\04.Maximal_Sum.csproj", "{A497F454-480C-4FC3-B54B-E2A5729196CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39BBA4D2-4DCD-48E8-AC01-75BF60D7E07F}.Debug|x86.ActiveCfg = Debug|x86
+		{39BBA4D2-4DCD-48E8-AC01-75BF60D7E07F}.Debug|x86.Build.0 = Debug|x86
+		{39BBA4D2-4DCD-48E8-AC01-75BF60D7E07F}.Release|x86.ActiveCfg = Release|x86
+		{39BBA4D2-4DCD-48E8-AC01-75BF60D7E07F}.Release|x86.Build.0 = Release|x86
+		{BACD12CA-C093-440C-8D1F-6BA7592F8130}.Debug|x86.ActiveCfg = Debug|x86
+		{BACD12CA-C093-440C-8D1F-6BA7592F8130}.Debug|x86.Build.0 = Debug|x86
+		{BACD12CA-C093-440C-8D1F-6BA7592F8130}.Release|x86.ActiveCfg = Release|x86
+		{BACD12CA-C093-440C-8D1F-6BA7592F8130}.Release|x86.Build.0 = Release|x86
+		{DF94E838-A853-448F-AC2E-2A842732C5A6}.Debug|x86.ActiveCfg = Debug|x86
+		{DF94E838-A853-448F-AC2E-2A842732C5A6}.Debug|x86.Build.0 = Debug|x86
+		{DF94E838-A853-448F-AC2E-2A842732C5A6}.Release|x86.ActiveCfg = Release|x86
+		{DF94E838-A853-448F-AC2E-2A842732C5A6}.Release|x86.Build.0 = Release|x86
+		{A497F454-480C-4FC3-B54B-E2A5729196CE}.Debug|x86.ActiveCfg = Debug|x86
+		{A497F454-480C-4FC3-B54B-E2A5729196CE}.Debug|x86.Build.0 = Debug|x86
+		{A497F454-480C-4FC3-B54B-E2A5729196CE}.Release|x86.ActiveCfg = Release|x86
+		{A497F454-480C-4FC3-B54B-E2A5729196CE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
