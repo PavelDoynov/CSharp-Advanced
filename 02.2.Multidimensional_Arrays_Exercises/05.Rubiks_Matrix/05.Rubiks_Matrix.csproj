@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{A497F454-480C-4FC3-B54B-E2A5729196CE}</ProjectGuid>
+    <ProjectGuid>{D78534F2-5649-4B50-9F65-97DFDE625DC0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Maximal_Sum</RootNamespace>
-    <AssemblyName>04.Maximal_Sum</AssemblyName>
+    <RootNamespace>Rubiks_Matrix</RootNamespace>
+    <AssemblyName>05.Rubiks_Matrix</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -32,7 +32,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MaximalSum.cs" />
+    <Compile Include="RubiksMatrix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

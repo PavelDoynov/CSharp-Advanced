@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.2x2_Squares_in_Matrix", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Maximal_Sum", "04.Maximal_Sum\04.Maximal_Sum.csproj", "{A497F454-480C-4FC3-B54B-E2A5729196CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Rubiks_Matrix", "05.Rubiks_Matrix\05.Rubiks_Matrix.csproj", "{D78534F2-5649-4B50-9F65-97DFDE625DC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -31,5 +33,9 @@ Global
 		{A497F454-480C-4FC3-B54B-E2A5729196CE}.Debug|x86.Build.0 = Debug|x86
 		{A497F454-480C-4FC3-B54B-E2A5729196CE}.Release|x86.ActiveCfg = Release|x86
 		{A497F454-480C-4FC3-B54B-E2A5729196CE}.Release|x86.Build.0 = Release|x86
+		{D78534F2-5649-4B50-9F65-97DFDE625DC0}.Debug|x86.ActiveCfg = Debug|x86
+		{D78534F2-5649-4B50-9F65-97DFDE625DC0}.Debug|x86.Build.0 = Debug|x86
+		{D78534F2-5649-4B50-9F65-97DFDE625DC0}.Release|x86.ActiveCfg = Release|x86
+		{D78534F2-5649-4B50-9F65-97DFDE625DC0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
