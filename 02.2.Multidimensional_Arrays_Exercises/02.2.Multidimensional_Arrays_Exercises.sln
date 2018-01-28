@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Maximal_Sum", "04.Maxima
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Rubiks_Matrix", "05.Rubiks_Matrix\05.Rubiks_Matrix.csproj", "{D78534F2-5649-4B50-9F65-97DFDE625DC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Target_Practice", "06.Target_Practice\06.Target_Practice.csproj", "{C04671AE-359F-4589-87E9-25F5564BABDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Lego_Blocks", "07.Lego_Blocks\07.Lego_Blocks.csproj", "{345D5950-0186-41B5-B67D-4E706EC4AE59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,5 +41,13 @@ Global
 		{D78534F2-5649-4B50-9F65-97DFDE625DC0}.Debug|x86.Build.0 = Debug|x86
 		{D78534F2-5649-4B50-9F65-97DFDE625DC0}.Release|x86.ActiveCfg = Release|x86
 		{D78534F2-5649-4B50-9F65-97DFDE625DC0}.Release|x86.Build.0 = Release|x86
+		{C04671AE-359F-4589-87E9-25F5564BABDE}.Debug|x86.ActiveCfg = Debug|x86
+		{C04671AE-359F-4589-87E9-25F5564BABDE}.Debug|x86.Build.0 = Debug|x86
+		{C04671AE-359F-4589-87E9-25F5564BABDE}.Release|x86.ActiveCfg = Release|x86
+		{C04671AE-359F-4589-87E9-25F5564BABDE}.Release|x86.Build.0 = Release|x86
+		{345D5950-0186-41B5-B67D-4E706EC4AE59}.Debug|x86.ActiveCfg = Debug|x86
+		{345D5950-0186-41B5-B67D-4E706EC4AE59}.Debug|x86.Build.0 = Debug|x86
+		{345D5950-0186-41B5-B67D-4E706EC4AE59}.Release|x86.ActiveCfg = Release|x86
+		{345D5950-0186-41B5-B67D-4E706EC4AE59}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
