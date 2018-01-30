@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{345D5950-0186-41B5-B67D-4E706EC4AE59}</ProjectGuid>
+    <ProjectGuid>{4FB6E984-2172-47F7-95E9-5C442407EB96}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lego_Blocks</RootNamespace>
-    <AssemblyName>07.Lego_Blocks</AssemblyName>
+    <RootNamespace>Radioactive_Mutant_Vampire_Bunnies</RootNamespace>
+    <AssemblyName>08.Radioactive_Mutant_Vampire_Bunnies</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -32,7 +32,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LegoBlocks.cs" />
+    <Compile Include="RadioactiveMutantVampireBunnies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
