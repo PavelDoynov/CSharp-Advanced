@@ -98,11 +98,9 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                             {
                                 bunniesMatrix[playerRowPosition - 1, playerColPosition] = 'P';
                                 bunniesMatrix[playerRowPosition, playerColPosition] = '.';
-                                //playerRowPosition = playerRowPosition - 1;
                             }
                             else if (playerRowPosition - 1 >= 0 && bunniesMatrix[playerRowPosition - 1, playerColPosition] == 'B')
                             {
-                                //playerRowPosition = playerRowPosition - 1;
                                 isDead = true;
                             }
                             playerRowPosition--;
@@ -121,11 +119,9 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                             {
                                 bunniesMatrix[playerRowPosition, playerColPosition - 1] = 'P';
                                 bunniesMatrix[playerRowPosition, playerColPosition] = '.';
-                                //playerColPosition = playerColPosition - 1;
                             }
                             else if (playerColPosition - 1 >= 0 && bunniesMatrix[playerRowPosition, playerColPosition - 1] == 'B')
                             {
-                                //playerColPosition = playerColPosition - 1;
                                 isDead = true;
                             }
                             playerColPosition--;
@@ -145,12 +141,10 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                             {
                                 bunniesMatrix[playerRowPosition + 1, playerColPosition] = 'P';
                                 bunniesMatrix[playerRowPosition, playerColPosition] = '.';
-                                // playerRowPosition = playerRowPosition + 1;
                             }
                             else if (playerRowPosition + 1 <= bunniesMatrix.GetLength(0) - 1
                                 && bunniesMatrix[playerRowPosition + 1, playerColPosition] == 'B')
                             {
-                                //playerRowPosition = playerRowPosition + 1;
                                 isDead = true;
                             }
                             playerRowPosition++;
@@ -170,12 +164,10 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                             {
                                 bunniesMatrix[playerRowPosition, playerColPosition + 1] = 'P';
                                 bunniesMatrix[playerRowPosition, playerColPosition] = '.';
-                                //playerColPosition = playerColPosition + 1;
                             }
                             else if (playerColPosition + 1 <= bunniesMatrix.GetLength(1) - 1
                                 && bunniesMatrix[playerRowPosition, playerColPosition + 1] == 'B')
                             {
-                                //playerColPosition = playerColPosition + 1;
                                 isDead = true;
                             }
                             playerColPosition++;
@@ -207,7 +199,6 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                             {
                                 int[] currentArrPos = { row - 1, col };
                                 bunniesPositions.Push(currentArrPos);
-                                //isDead = true;
                             }
                             if (row + 1 <= bunniesMatrix.GetLength(0) - 1 && bunniesMatrix[row + 1, col] == 'P')
                             {
@@ -219,7 +210,6 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                             {
                                 int[] currentArrPos = { row + 1, col };
                                 bunniesPositions.Push(currentArrPos);
-                                //isDead = true;
                             }
                             if (col - 1 >= 0 && bunniesMatrix[row, col - 1] == 'P')
                             {
@@ -231,7 +221,6 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                             {
                                 int[] currentArrPos = { row, col - 1 };
                                 bunniesPositions.Push(currentArrPos);
-                                //isDead = true;
                             }
                             if (col + 1 <= bunniesMatrix.GetLength(1) - 1 && bunniesMatrix[row, col + 1] == 'P')
                             {
@@ -243,13 +232,12 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                             {
                                 int[] currentArrPos = { row, col + 1 };
                                 bunniesPositions.Push(currentArrPos);
-                                //isDead = true;
                             }
                         }
                     }
                 }
 
-                while (bunniesPositions.Count != 0) // We put the bunnies in new positions
+                while (bunniesPositions.Count != 0) // We put bunnies in the new positions
                 {
                     int[] currentPosition = bunniesPositions.Pop();
 
