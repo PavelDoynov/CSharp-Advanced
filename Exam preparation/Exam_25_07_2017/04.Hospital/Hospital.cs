@@ -119,12 +119,16 @@ namespace _04.Hospital
                             }
                         }
 
-                        patients.Skip((room * 3) - 3).Take(3).OrderBy(name => name).ToList()
+                        patients.Skip((room * 3) - 3)
+                                .Take(3)
+                                .OrderBy(name => name)
+                                .ToList()
                                 .ForEach(name => Console.WriteLine(name));
                     }
                     catch (Exception)
                     {
                         string doctor = $"{command[0]} {command[1]}";
+
                         List<string> patients = new List<string>();
 
                         foreach (var department in hospital)
@@ -135,7 +139,9 @@ namespace _04.Hospital
                             }
                         }
 
-                        patients.OrderBy(name => name).ToList().ForEach(name => Console.WriteLine(name));
+                        patients.OrderBy(name => name)
+                                .ToList()
+                                .ForEach(name => Console.WriteLine(name));
                     }
                 }
                 command = Console.ReadLine()
